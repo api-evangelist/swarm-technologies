@@ -1,4 +1,16 @@
 aid: swarm-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swarm-technologies.png
 name: Swarm Technologies
 description: 'Swarm Technologies is a company surfaced as a portfolio company of social-capital and added
   to the API Evangelist network as a stub for enrichment. Sector: space. This profile is a lead awaiting
@@ -12,10 +24,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
+x-status-note: 'Swarm Technologies was acquired by SpaceX (2021); the satellite IoT
+  connectivity service (Swarm Hive / bumblebee API) has been discontinued. Verified
+  2026-07-21: swarm.space has no DNS records (no A/NS) and the registry reports the
+  domain as "Registry Reserved" (relinquished). No live API, docs, or developer surface
+  remains to enrich.'
 tags:
 - Company
 - Space
+- Satellite
+- IoT
+- Connectivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://swarm.space
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
